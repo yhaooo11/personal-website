@@ -5,7 +5,7 @@ import IconArrow from './icons/IconArrow.vue'
 <template>
     <div class="project-card">
         <div class="left">
-            <img :src="`/images/${imgName}`" class="project-image">
+            <img :src="`images/${imgName}`" class="project-image">
         </div>
         <div class="right">
             <div class="main">
