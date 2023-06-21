@@ -21,10 +21,23 @@
     display: flex;
     gap: 3rem;
 }
+
+@media (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
 .avatar {
     border-radius: 50%;
     aspect-ratio: 1 / 1;
     width: 12rem;
+}
+
+@media (max-width: 1000px) {
+  .avatar {
+    width: 10rem;
+  }
 }
 
 .about {
