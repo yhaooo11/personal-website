@@ -41,7 +41,7 @@ import ProjectCard from './components/ProjectCard.vue';
       >
       </ExperienceCard>
       <div class="resume">
-        <a class="resume-link">View Full Resume</a>
+        <a class="resume-link" href="./assets/Yifan_Hao_Resume_2023.pdf">View Full Resume</a>
         <IconFile class="resume-icon"></IconFile>
       </div>
       <h2 ref="education">Education</h2>
@@ -133,15 +133,16 @@ export default {
   padding: 4rem 8rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .container {
     flex-direction: column;
+    padding: 4rem 2rem;
+    gap: 5rem;
   }
 }
 
 .column {
   flex: 1;
-  width: 50%;
 }
 
 .right {
@@ -154,10 +155,16 @@ export default {
 .left {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 3rem;
   height: fit-content;
-  position: sticky;
-  top: 4rem;  
+}
+
+@media (min-width: 1000px) {
+  .left {
+    position: sticky;
+    top: 4rem;
+    gap: 6rem;
+  }
 }
 
 .resume {
@@ -187,5 +194,9 @@ h2 {
 
 main {
   margin-bottom: 5rem;
+}
+
+a {
+  all: unset;
 }
 </style>

@@ -49,4 +49,11 @@ export default {
     color: #c7daf0;
     text-decoration: underline;
  }
+
+ @media (max-width: 1000px) {
+  .active {
+    color: #95bae4;
+    text-decoration: none;
+  }
+}
 </style>
