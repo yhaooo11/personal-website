@@ -5,7 +5,7 @@
 <template>
     <div class="about">
         <p>
-            Hey! I'm Yifan Hao, a second year computer science and statistics student at the University of British Columbia. I am currently
+            Hey! I'm Yifan Hao, a computer science and statistics student at the University of British Columbia. I am currently
             doing a co-op term at Verto Health as a full stack developer.
         </p><br>
         <p>
