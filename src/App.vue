@@ -41,7 +41,7 @@ import ProjectCard from './components/ProjectCard.vue';
       >
       </ExperienceCard>
       <div class="resume">
-        <a class="resume-link" href="./assets/Yifan_Hao_Resume_June_2023.pdf">View Full Resume</a>
+        <a class="resume-link" href="./assets/Yifan_Hao_Resume_2023.pdf">View Full Resume</a>
         <IconFile class="resume-icon"></IconFile>
       </div>
       <h2 ref="education">Education</h2>
