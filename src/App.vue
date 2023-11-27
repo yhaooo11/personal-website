@@ -46,7 +46,7 @@ import ProjectCard from './components/ProjectCard.vue';
       </div>
       <h2 ref="education">Education</h2>
       <EducationCard
-        gradDate="Expected Graduation May 2026"
+        gradDate="Expected Graduation May 2025"
         school="University of British Columbia"
         degree="Bachelor of Science in Computer Science and Statistics"
         gpa="4.0/4.0"
