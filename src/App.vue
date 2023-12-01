@@ -130,7 +130,7 @@ export default {
   display: flex;
   gap: 1rem;
   justify-content: space-between;
-  padding: 4rem 8rem;
+  padding: 4rem 5rem;
 }
 
 @media (max-width: 1000px) {
