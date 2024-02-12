@@ -7,7 +7,7 @@
         <img class="avatar" :src="image" />
         <div>
             <h1>Yifan Hao</h1>
-            <h2>Jr. Full Stack Developer @ Verto Health</h2>
+            <h2>SWE Intern @ Sony Pictures Imageworks</h2>
             <h2>CS + Stats Student @ UBC</h2>
         </div>
     </div>

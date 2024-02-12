@@ -23,11 +23,19 @@ import ProjectCard from './components/ProjectCard.vue';
       </div>
       <h2 ref="experience">Experience</h2>
       <ExperienceCard 
-        startDate="Jan. 2023"
+        startDate="Jan. 2024"
         endDate="Present"
-        role="Jr. Full Stack Developer"
+        role="Software Engineer Intern"
+        company="Sony Pictures Imageworks"
+        description="Developing in-house documentation platform on the infrastructure team"
+        :skills="['Python', 'TypeScript', 'Angular', 'Flask', 'Linux', 'TailwindCSS', 'Git']"
+      />
+      <ExperienceCard 
+        startDate="Jan. 2023"
+        endDate="Aug. 2023"
+        role="Software Developer Intern"
         company="Verto Health"
-        description="Deliver high-quality, robust production code for a diverse array of projects for clients. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship."
+        description="Deliver high-quality, robust production code for a diverse array of projects for clients in the healthcare industry"
         :skills="['Vue', 'Angular', 'Ruby on Rails', 'Python', 'JavaScript', 'TypeScript', 'Git']"
       >
       </ExperienceCard>
@@ -36,7 +44,7 @@ import ProjectCard from './components/ProjectCard.vue';
         endDate="Jan. 2023"
         role="Teaching Assistant"
         company="UBC Computer Science"
-        description="Led weekly programming labs for over 60 students for CPSC 110 (Computation, Programs, and Programming). Explained programming concepts in Racket including recursion, data types, and systematic code design"
+        description="Led weekly programming labs for over 60 students for CPSC 110 (Computation, Programs, and Programming)"
         :skills="['Racket', 'Teaching', 'Leadership', 'Programming Concepts']"
       >
       </ExperienceCard>
@@ -50,10 +58,24 @@ import ProjectCard from './components/ProjectCard.vue';
         school="University of British Columbia"
         degree="Bachelor of Science in Computer Science and Statistics"
         gpa="4.0/4.0"
-        :relevantCourses="['CPSC 110 (Intro to Programming)', 'CPSC 210 (OOP)', 'CPSC 221 (DSA)']"
+        :relevantCourses="['CPSC 110 (Intro to Programming)', 'CPSC 210 (OOP)', 'CPSC 221 (DSA)', 'CPSC 313 (OS)']"
       >
       </EducationCard>
       <h2 ref="projects">Projects</h2>
+       <ProjectCard
+        imgName="t.gif"
+        name="Grepy"
+        link="https://github.com/yhaooo11/grepy"
+        description="A remake of grep in C++"
+        :techs="['C++', 'Makefile']"
+      />  
+      <ProjectCard
+        imgName="voter.png"
+        name="Voter"
+        link="https://github.com/yhaooo11/voter"
+        description="A scalable realtime election-style voting system program"
+        :techs="['Python', 'Kafka', 'Spark', 'PostgreSQL', 'Streamlit']"
+      />
       <ProjectCard
         imgName="website-bright.png"
         name="Personal Website"
@@ -73,7 +95,7 @@ import ProjectCard from './components/ProjectCard.vue';
       <ProjectCard
         imgName="queue.webp"
         name="EasyQueue"
-        link="https://github.com/yhaooo11/EasyQueue"
+        link="https://github.com/yhaooo11i/EasyQueue"
         description="A free online queue maker website. Simply create an account and create your own queue. Joining is as simple as clicking a link."
         :techs="['React', 'Express', 'SocketIO', 'MongoDB', 'Bootstrap']"
       >
